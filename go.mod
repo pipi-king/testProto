@@ -1,4 +1,4 @@
-module testProto
+module github.com/pipi-king/testProto
 
 go 1.19
 
@@ -8,9 +8,9 @@ require (
 )
 
 require (
-	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
-	google.golang.org/genproto v0.0.0-20230327215041-6ac7f18bb9d5 // indirect
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 )
