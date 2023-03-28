@@ -6,9 +6,7 @@ option go_package ="./;pb";
 
 service Calculator {
   rpc Add (Operation) returns (Result) {}
-  rpc Subtract (Operation) returns (Result) {}
-  rpc Multiply (Operation) returns (Result) {}
-  rpc Divide (Operation) returns (Result) {}
+
 }
 
 message Operation {
